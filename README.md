@@ -29,19 +29,19 @@ They are included to give an idea of the application's interface and functionali
 
 ### 🎯 Score Input
 
-![Score Input](screenshots/score-input.png)
+![Darts Scorer game screen](screenshots/score-recorder.png)
 
 ### 📊 Player Statistics
 
-![Player Statistics](screenshots/player-statistics.png)
+![Darts Scorer statistics](screenshots/stats.png)
 
 ### 📈 Scoring Statistics
 
-![Scoring Statistics](screenshots/scoring-statistics.png)
+![Darts Scorer game setup](screenshots/darts-thrown-per-leg.png)
 
 ### 🏆 Match / Game Screen
 
-![Match / Game Screen](screenshots/game-screen.png)
+![Darts Scorer player management](screenshots/time-out-functionality.png)
 
 ## 🧠 What the Project Demonstrates
 
