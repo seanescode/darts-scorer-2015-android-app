@@ -7,7 +7,8 @@ The application was built as an early-stage software development project and rep
 > **📌 Project note:** This is a historical project from 2015 and is preserved as a record of an earlier stage of my software development. The code reflects the architecture, tools and development practices I was using at the time and is not intended to represent my current coding standards.
 
 ## 🎯 Features
-* ⏱️ Optional timer mode - can play friends against clock (no other apps that had that functionality)
+
+* ⏱️ Optional timer mode - play against the clock
 * 🎯 Darts scoring and checkout validation
 * 👥 Player management
 * 🤖 CPU opponent
@@ -28,19 +29,11 @@ They are included to give an idea of the application's interface and functionali
 
 ### 🎯 Score Input
 
-![Darts Scorer game screen](screenshots/score-recorder.png)
-
 ### 📊 Player Statistics
-
-![Darts Scorer statistics](screenshots/stats.png)
 
 ### 📈 Scoring Statistics
 
-![Darts Scorer game setup](screenshots/darts-thrown-per-leg.png)
-
 ### 🏆 Match / Game Screen
-
-![Darts Scorer player management](screenshots/time-out-functionality.png)
 
 ## 🧠 What the Project Demonstrates
 
@@ -127,7 +120,7 @@ Data / Persistence
 
 The game rules, statistics and data access would be separated from the Android UI, making the application easier to test, maintain and extend.
 
-This project is therefore useful both as a working application and as a record of how my approach to software development has evolved.
+This project is useful both as a working application and as a record of how my approach to software development has evolved.
 
 ## 📌 Project Status
 
@@ -135,9 +128,6 @@ This project is therefore useful both as a working application and as a record o
 
 This project is no longer under active development and is maintained on GitHub primarily as a portfolio and reference project.
 
-The repository preserves the original application and provides an example of an earlier software development project from 2015.
-
+The repository preserves the original application as an example of an earlier stage of my software development.
 
 **2015 — Android / Java / SQLite**
-
-*An early project, preserved as part of my development history.*
