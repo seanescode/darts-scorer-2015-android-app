@@ -6,6 +6,14 @@ This project is one of my earlier substantial software projects. I built it as a
 
 The project is preserved on GitHub as a snapshot of my development work from 2015.
 
+## Screenshots
+
+The screenshots below are from the original application and were recovered from the Google Play Store listing.
+
+They are included to give an idea of the application's interface and functionality as it appeared when the application was originally published.
+
+
+
 ## About
 
 The application was designed to provide a complete darts scoring experience rather than simply calculating a score.
