@@ -118,11 +118,8 @@ If I were developing the application today, I would approach the architecture di
 
 The game rules, statistics and data access would be separated from the Android UI, making the application easier to test, maintain and extend.
 
-This project is useful both as a working application and as a record of how my approach to software development has evolved.
+This project is therefore useful both as a working application and as a record of how my approach to software development has evolved.
 
-The game rules, statistics and data access would be separated from the Android UI, making the application easier to test, maintain and extend.
-
-This project is useful both as a working application and as a record of how my approach to software development has evolved.
 
 ## 📌 Project Status
 
