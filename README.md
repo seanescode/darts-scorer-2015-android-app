@@ -12,7 +12,22 @@ The screenshots below are from the original application and were recovered from 
 
 They are included to give an idea of the application's interface and functionality as it appeared when the application was originally published.
 
+### Score input screen 
 
+![Darts Scorer game screen](screenshots/score-recorder.png)
+
+### Statistics
+
+![Darts Scorer statistics](screenshots/stats.png)
+
+### Darts thrown per leg stats
+
+![Darts Scorer game setup](screenshots/darts-thrown-per-leg.png)
+
+
+### Time out functionality (if timer goes to zero before player throws they see this dialog)
+
+![Darts Scorer player management](screenshots/time-out-functionality.png)
 
 ## About
 
