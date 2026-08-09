@@ -4,7 +4,7 @@ A fully functional Android darts scoring application originally developed in **2
 
 The application was built as an early-stage software development project and represents my experience at that time with Android development, Java, SQLite, application state, user interfaces, data persistence and implementing domain-specific rules.
 
-> **📌 Project note:** This is a historical project from 2015 and is preserved as a record of an earlier stage of my software development. The code reflects the architecture, tools and development practices I was using at the time and is not intended to represent my current coding standards.
+**📌 Project note:** This is a historical project from 2015 and is preserved as a record of an earlier stage of my software development. The code reflects the architecture, tools and development practices I was using at the time and is not intended to represent my current coding standards.
 
 ## 🎯 Features
 
