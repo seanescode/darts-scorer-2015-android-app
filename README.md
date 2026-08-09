@@ -29,13 +29,20 @@ They are included to give an idea of the application's interface and functionali
 
 ### 🎯 Score Input
 
+![Darts Scorer game screen](screenshots/score-recorder.png)
+
 ### 📊 Player Statistics
+
+![Darts Scorer statistics](screenshots/stats.png)
 
 ### 📈 Scoring Statistics
 
+![Darts Scorer game setup](screenshots/darts-thrown-per-leg.png)
+
 ### 🏆 Match / Game Screen
 
-## 🧠 What the Project Demonstrates
+![Darts Scorer player management](screenshots/time-out-functionality.png)
+
 
 Although this is an older project, it involved considerably more than simply creating an Android interface.
 
