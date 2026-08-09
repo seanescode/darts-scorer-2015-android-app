@@ -1,6 +1,6 @@
 # 🎯 Darts Scorer
 
-A fully functional Android darts scoring application originally developed in **2015**.
+A fully functional Android darts scoring application originally developed in 2015.
 
 The application was built as an early-stage software development project and represents my experience at that time with Android development, Java, SQLite, application state, user interfaces, data persistence and implementing domain-specific rules.
 
