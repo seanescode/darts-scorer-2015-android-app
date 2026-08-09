@@ -1,131 +1,142 @@
-# Darts Scorer — Android
+# 🎯 Darts Scorer
 
-**An Android darts scoring application I developed in 2015.**
+A fully functional Android darts scoring application originally developed in **2015**.
 
-This project is one of my earlier substantial software projects. I built it as a fully functioning Android application for managing darts matches, scoring games, tracking players, and recording performance statistics.
+The application was built as an early-stage software development project and represents my experience at that time with Android development, Java, SQLite, application state, user interfaces, data persistence and implementing domain-specific rules.
 
-The project is preserved on GitHub as a snapshot of my development work from 2015.
+> **📌 Project note:** This is a historical project from 2015 and is preserved as a record of an earlier stage of my software development. The code reflects the architecture, tools and development practices I was using at the time and is not intended to represent my current coding standards.
 
-## Screenshots
-
-The screenshots below are from the original application and were recovered from the Google Play Store listing.
-
-They are included to give an idea of the application's interface and functionality as it appeared when the application was originally published.
-
-### Score input screen 
-
-![Darts Scorer game screen](screenshots/score-recorder.png)
-
-### Statistics
-
-![Darts Scorer statistics](screenshots/stats.png)
-
-### Darts thrown per leg stats
-
-![Darts Scorer game setup](screenshots/darts-thrown-per-leg.png)
-
-
-### Time out functionality (if timer goes to zero before player throws they see this dialog)
-
-![Darts Scorer player management](screenshots/time-out-functionality.png)
-
-## About
-
-The application was designed to provide a complete darts scoring experience rather than simply calculating a score.
-
-It included player management, match and leg handling, persistent statistics, a CPU opponent, configurable game settings, and the ability to resume games.
-
-## Features
-
+## 🎯 Features
+* ⏱️ Optional timer mode - can play friends against clock (no other apps that had that functionality)
 * 🎯 Darts scoring and checkout validation
 * 👥 Player management
 * 🤖 CPU opponent
 * 📊 Player and match statistics
 * 💾 Persistent data using SQLite
 * 🔄 Resume saved games
-* ⏱️ Optional timer mode
 * 🏆 Match and leg tracking
 * 📈 Scoring statistics including 60+, 100+, 140+ and 180 scores
 * 🎮 Configurable game settings
 * 🔊 In-game sound effects
 * 📱 Android UI with multiple screens and layouts
 
-## Technology
+## 📱 Screenshots
+
+The screenshots below are from the original application and were recovered from the Google Play Store listing.
+
+They are included to give an idea of the application's interface and functionality as it appeared when the application was originally published.
+
+### 🎯 Score Input
+
+![Darts Scorer game screen](screenshots/score-recorder.png)
+
+### 📊 Player Statistics
+
+![Darts Scorer statistics](screenshots/stats.png)
+
+### 📈 Scoring Statistics
+
+![Darts Scorer game setup](screenshots/darts-thrown-per-leg.png)
+
+### 🏆 Match / Game Screen
+
+![Darts Scorer player management](screenshots/time-out-functionality.png)
+
+## 🧠 What the Project Demonstrates
+
+Although this is an older project, it involved considerably more than simply creating an Android interface.
+
+The application required the design and implementation of:
+
+* Game and match state
+* Darts scoring and checkout rules
+* Player and match data
+* Persistent storage
+* Statistics and derived calculations
+* User input and validation
+* Saved and resumable game state
+* Multiple application workflows
+* Configurable settings
+* CPU gameplay behaviour
+
+The project therefore provides an early example of taking a real-world process and translating its rules and workflows into working software.
+
+## 💾 Data & Persistence
+
+The application uses **SQLite** for persistent player and statistics data.
+
+The database stores information required to maintain player records and track statistics across games rather than relying solely on temporary application state.
+
+## 📊 Statistics
+
+The application records and displays various player and match statistics, including scoring milestones such as:
+
+* 60+
+* 100+
+* 140+
+* 180
+
+Statistics are calculated from game data and presented through dedicated statistics screens.
+
+## 🏗️ Technical Implementation
+
+The original application was developed using:
 
 * **Java**
-* **Android**
+* **Android SDK**
 * **SQLite**
-* Android `SharedPreferences`
-* Android layouts/resources
-* Android activities and UI components
+* Android Activities and layouts
+* Android preferences/state management
+* Android media and sound functionality
 
-## Project Structure
+The application contains separate areas for gameplay, player management, game setup, statistics and instructions.
 
-The original application consisted of several components responsible for different parts of the application, including:
+## 🔄 Saved Games
 
-* Game play and scoring
-* Game setup
-* Player management
-* Database management
-* Player statistics
-* Game statistics
-* Statistics screens
-* Android resources and layouts
+One of the application's features is the ability to resume a game after leaving the gameplay screen.
 
-The main game implementation contains the core scoring and game-state logic.
+This required the application to retain relevant game state and restore it when the user returned to the game.
 
-## Statistics
+## 🤖 CPU Opponent
 
-The application recorded a range of player performance information, including:
+The application includes a CPU opponent, allowing a player to play a game without another human player.
 
-* Legs played
-* Legs won
-* Darts thrown
-* Points scored
-* 60+ scores
-* 100+ scores
-* 140+ scores
-* 180s
-* Average scoring performance
-* Checkout information
+This required the application to handle automated gameplay alongside the normal player scoring workflow.
 
-## Development Notes
+## 📚 Development Context
 
-This application was developed in **2015**, so the code reflects the Android development practices and my programming experience at that time.
+This project was developed in **2015** and represents an **early stage of my software development**.
 
-The architecture is not representative of how I would structure a project today. Some responsibilities are tightly coupled within the Android activities, particularly around game state, UI and application logic.
+It is intentionally preserved in its original form rather than being substantially rewritten to reflect modern Android architecture.
 
-Rather than rewriting the original project, I have kept it largely intact as a record of an earlier stage of my development.
+The code is therefore not presented as an example of current best practice. In particular, the application has a relatively tightly coupled, Activity-centric architecture compared with how I would structure a new application today.
 
-That makes the project useful to me as a reference point for how my approach to software development has evolved over time.
+That said, the project demonstrates an important stage in my development as a programmer: designing and implementing a complete application involving user workflows, business rules, persistent data, application state and reporting.
 
-## Current Status
+## 🚀 Looking Back
 
-**Archived / Historical Project**
+If I were developing the application today, I would approach the architecture differently, with greater separation between:
 
-This project is no longer actively maintained.
+```text
+User Interface
+      ↓
+Application / Business Logic
+      ↓
+Data / Persistence
+```
 
-It is preserved as an example of an earlier Android application I developed and as part of my programming history.
+The game rules, statistics and data access would be separated from the Android UI, making the application easier to test, maintain and extend.
 
-## What I Learned
+This project is therefore useful both as a working application and as a record of how my approach to software development has evolved.
 
-Building this application gave me practical experience with:
+## 📌 Project Status
 
-* Designing and building an application from scratch
-* Android application development
-* Managing complex application state
-* Working with databases and persistent data
-* Implementing domain-specific business logic
-* Designing multi-screen user interfaces
-* Managing player and game data
-* Building statistical functionality
-* Handling different application states and user flows
+**Historical / Archived**
 
-## Looking Back
+This project is no longer under active development and is maintained on GitHub primarily as a portfolio and reference project.
 
-This was one of my earlier attempts at building a reasonably complete application rather than a small programming exercise.
+The repository preserves the original application and provides an example of an earlier software development project from 2015.
 
-The code and architecture have obvious limitations when viewed from a modern perspective, but the project represents an important stage in my development as a programmer.
 
 **2015 — Android / Java / SQLite**
 
