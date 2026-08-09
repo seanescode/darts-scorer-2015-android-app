@@ -8,18 +8,18 @@ The application was built as an early-stage software development project and rep
 
 ## 🎯 Features
 
-* ⏱️ Optional timer mode - play against the clock
-* 🎯 Darts scoring and checkout validation
-* 👥 Player management
-* 🤖 CPU opponent
-* 📊 Player and match statistics
-* 💾 Persistent data using SQLite
-* 🔄 Resume saved games
-* 🏆 Match and leg tracking
-* 📈 Scoring statistics including 60+, 100+, 140+ and 180 scores
-* 🎮 Configurable game settings
-* 🔊 In-game sound effects
-* 📱 Android UI with multiple screens and layouts
+- ⏱️ Optional timer mode - play against the clock
+- 🎯 Darts scoring and checkout validation
+- 👥 Player management
+- 🤖 CPU opponent
+- 📊 Player and match statistics
+- 💾 Persistent data using SQLite
+- 🔄 Resume saved games
+- 🏆 Match and leg tracking
+- 📈 Scoring statistics including 60+, 100+, 140+ and 180 scores
+- 🎮 Configurable game settings
+- 🔊 In-game sound effects
+- 📱 Android UI with multiple screens and layouts
 
 ## 📱 Screenshots
 
@@ -29,35 +29,36 @@ They are included to give an idea of the application's interface and functionali
 
 ### 🎯 Score Input
 
-![Darts Scorer game screen](screenshots/score-recorder.png)
+![Score Input](screenshots/score-input.png)
 
 ### 📊 Player Statistics
 
-![Darts Scorer statistics](screenshots/stats.png)
+![Player Statistics](screenshots/player-statistics.png)
 
 ### 📈 Scoring Statistics
 
-![Darts Scorer game setup](screenshots/darts-thrown-per-leg.png)
+![Scoring Statistics](screenshots/scoring-statistics.png)
 
 ### 🏆 Match / Game Screen
 
-![Darts Scorer player management](screenshots/time-out-functionality.png)
+![Match / Game Screen](screenshots/game-screen.png)
 
+## 🧠 What the Project Demonstrates
 
 Although this is an older project, it involved considerably more than simply creating an Android interface.
 
 The application required the design and implementation of:
 
-* Game and match state
-* Darts scoring and checkout rules
-* Player and match data
-* Persistent storage
-* Statistics and derived calculations
-* User input and validation
-* Saved and resumable game state
-* Multiple application workflows
-* Configurable settings
-* CPU gameplay behaviour
+- Game and match state
+- Darts scoring and checkout rules
+- Player and match data
+- Persistent storage
+- Statistics and derived calculations
+- User input and validation
+- Saved and resumable game state
+- Multiple application workflows
+- Configurable settings
+- CPU gameplay behaviour
 
 The project therefore provides an early example of taking a real-world process and translating its rules and workflows into working software.
 
@@ -71,10 +72,10 @@ The database stores information required to maintain player records and track st
 
 The application records and displays various player and match statistics, including scoring milestones such as:
 
-* 60+
-* 100+
-* 140+
-* 180
+- 60+
+- 100+
+- 140+
+- 180
 
 Statistics are calculated from game data and presented through dedicated statistics screens.
 
@@ -82,12 +83,12 @@ Statistics are calculated from game data and presented through dedicated statist
 
 The original application was developed using:
 
-* **Java**
-* **Android SDK**
-* **SQLite**
-* Android Activities and layouts
-* Android preferences/state management
-* Android media and sound functionality
+- **Java**
+- **Android SDK**
+- **SQLite**
+- Android Activities and layouts
+- Android preferences/state management
+- Android media and sound functionality
 
 The application contains separate areas for gameplay, player management, game setup, statistics and instructions.
 
@@ -115,18 +116,11 @@ That said, the project demonstrates an important stage in my development as a pr
 
 ## 🚀 Looking Back
 
-If I were developing the application today, I would approach the architecture differently, with greater separation between:
-
-**User Interface**
-↓
-**Application / Business Logic**
-↓
-**Data / Persistence**
+If I were developing the application today, I would approach the architecture differently, with greater separation between the user interface, application/business logic and data/persistence layers.
 
 The game rules, statistics and data access would be separated from the Android UI, making the application easier to test, maintain and extend.
 
 This project is therefore useful both as a working application and as a record of how my approach to software development has evolved.
-
 
 ## 📌 Project Status
 
